@@ -1,6 +1,8 @@
 body{
 	font-family: "ARIAL";
 	color: rgb(0,0,0);
+	padding: 0;
+	margin: 0;
 }
 section{
 	display: table;
@@ -17,4 +19,9 @@ section{
 }
 h1{
 	font-size: 100px;
+}
+@media only screen and (max-width: 500px){
+	h1{
+		font-size: 50px;
+	}
 }
